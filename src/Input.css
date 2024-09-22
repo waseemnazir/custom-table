@@ -1,0 +1,15 @@
+/* Atoms/Input.css */
+.custom-input {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 100%;
+    transition: border-color 0.3s ease;
+  }
+  
+  .custom-input:focus {
+    border-color: #666;
+    outline: none;
+  }
+  

@@ -1,0 +1,19 @@
+/* Atoms/Button.css */
+.custom-button {
+  margin: 0 5px;
+  padding: 5px 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.custom-button:hover {
+  background-color: #f0f0f0;
+}
+
+.custom-button.active {
+  background-color: #ccc;
+  border-color: #999;
+}

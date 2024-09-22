@@ -1,0 +1,38 @@
+/* Organisms/Table.css */
+.table-container {
+    width: 100%;
+    margin: 20px 0;
+  }
+  
+  .custom-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+  }
+  
+  .custom-table th, .custom-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .custom-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  .custom-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .custom-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .no-data {
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    color: #666;
+  }
+  

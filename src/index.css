@@ -1,13 +1,93 @@
+/* App.css */
 body {
+  font-family: Arial, sans-serif;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
 }
+
+.App {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Organisms/Table.css */
+.table-container {
+  width: 100%;
+  margin: 20px 0;
+}
+
+.custom-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 10px;
+}
+
+.custom-table th, .custom-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.custom-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.custom-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.custom-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.no-data {
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  color: #666;
+}
+
+/* Atoms/Input.css */
+.custom-input {
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 100%;
+  transition: border-color 0.3s ease;
+}
+
+.custom-input:focus {
+  border-color: #666;
+  outline: none;
+}
+
+/* Atoms/Button.css */
+.custom-button {
+  margin: 0 5px;
+  padding: 5px 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.custom-button:hover {
+  background-color: #f0f0f0;
+}
+
+.custom-button.active {
+  background-color: #ccc;
+  border-color: #999;
+}
+
